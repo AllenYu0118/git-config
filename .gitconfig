@@ -1,0 +1,12 @@
+# https://mp.weixin.qq.com/s/UnV5ZRpmG3jQEbe_NCNX1g
+[user]
+    name = AllenYu
+    email = yulei0118@gmail.com
+[core]
+    path = ~/Github/git-config/.gitconfig_global
+[includeIf "gitdir:~/dev/"]
+    path = ~/Github/git-config/.gitconfig_company
+[includeIf "gitdir:~/T5-FE/"]
+    path = ~/Github/git-config/.gitconfig_company
+[includeIf "gitdir:~/Github/"]
+    path = ~/Github/git-config/.gitconfig_individual
