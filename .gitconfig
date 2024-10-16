@@ -8,5 +8,7 @@
     path = ~/Github/git-config/.gitconfig_company
 [includeIf "gitdir:~/T5-FE/"]
     path = ~/Github/git-config/.gitconfig_company
+[includeIf "gitdir:~/T1-FE/"]
+    path = ~/Github/git-config/.gitconfig_company
 [includeIf "gitdir:~/Github/"]
     path = ~/Github/git-config/.gitconfig_individual
