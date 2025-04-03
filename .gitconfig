@@ -4,11 +4,15 @@
     email = yulei0118@gmail.com
 [core]
     path = ~/Github/git-config/.gitconfig_global
+
 [includeIf "gitdir:~/dev/"]
     path = ~/Github/git-config/.gitconfig_company
+
 [includeIf "gitdir:~/T5-FE/"]
     path = ~/Github/git-config/.gitconfig_company
+
 [includeIf "gitdir:~/T1-FE/"]
     path = ~/Github/git-config/.gitconfig_company
-[includeIf "gitdir:~/Github/"]
+
+[includeIf "gitdir:~/GitHub/"]
     path = ~/Github/git-config/.gitconfig_individual
